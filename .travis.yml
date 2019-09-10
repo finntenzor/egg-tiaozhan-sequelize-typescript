@@ -4,10 +4,18 @@ node_js:
   - '8'
   - '10'
 before_install:
-  - npm i npminstall -g
+  - npm i -g npm@6
 install:
-  - npminstall
+  - npm install
 script:
   - npm run ci
-after_script:
-  - npminstall codecov && codecov
+after_success:
+ - 'nyc report --reporter=lcov > coverage.lcov && codecov'
+services:
+  - mysql
+before_install:
+  - mysql -e 'CREATE DATABASE IF NOT EXISTS test;'
+  - mysql -e 'CREATE DATABASE IF NOT EXISTS test1;'
+  - mysql -e 'CREATE DATABASE IF NOT EXISTS test2;'
+  - mysql -e 'CREATE DATABASE IF NOT EXISTS test3;'
+  - mysql -e 'CREATE DATABASE IF NOT EXISTS test4;'
