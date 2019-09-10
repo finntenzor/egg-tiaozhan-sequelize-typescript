@@ -20,9 +20,9 @@
 [download-image]: https://img.shields.io/npm/dm/egg-tiaozhan-sequelize-typescript.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-tiaozhan-sequelize-typescript
 
-<!--
-Description here.
--->
+## Reference
+
+https://github.com/xvsuper/ts-egg-sequelize[https://github.com/xvsuper/ts-egg-sequelize]
 
 ## Install
 
