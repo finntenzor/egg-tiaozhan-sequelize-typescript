@@ -3,10 +3,9 @@ language: node_js
 node_js:
   - '8'
   - '10'
-before_install:
+install:
   - npm cache clean --force
   - npm i -g npm@6
-install:
   - npm install
 script:
   - npm run ci
