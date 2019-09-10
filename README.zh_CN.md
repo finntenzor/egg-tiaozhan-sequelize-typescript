@@ -22,7 +22,7 @@
 
 ## 参考
 
-https://github.com/xvsuper/ts-egg-sequelize[https://github.com/xvsuper/ts-egg-sequelize]
+[https://github.com/xvsuper/ts-egg-sequelize](https://github.com/xvsuper/ts-egg-sequelize)
 
 ## 依赖说明
 
@@ -67,7 +67,7 @@ config.sequelize = {
 
 ## 如何使用
 
-https://github.com/RobinBuschmann/sequelize-typescript[https://github.com/RobinBuschmann/sequelize-typescript]
+[https://github.com/RobinBuschmann/sequelize-typescript](https://github.com/RobinBuschmann/sequelize-typescript)
 
 ## 提问交流
 

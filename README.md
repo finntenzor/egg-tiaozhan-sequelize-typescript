@@ -22,7 +22,7 @@
 
 ## Reference
 
-https://github.com/xvsuper/ts-egg-sequelize[https://github.com/xvsuper/ts-egg-sequelize]
+[https://github.com/xvsuper/ts-egg-sequelize](https://github.com/xvsuper/ts-egg-sequelize)
 
 ## Install
 
@@ -58,7 +58,7 @@ config.sequelize = {
 
 ## Example
 
-https://github.com/RobinBuschmann/sequelize-typescript[https://github.com/RobinBuschmann/sequelize-typescript]
+[https://github.com/RobinBuschmann/sequelize-typescript](https://github.com/RobinBuschmann/sequelize-typescript)
 
 ## Questions & Suggestions
 
